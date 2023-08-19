@@ -1,0 +1,133 @@
+body{
+    background-image: linear-gradient(to left, #042f66,#090e07);
+    color: azure;
+    font-weight: 300;
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 5%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+
+#About{
+    font-size: 1.5rem;
+}
+
+main div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Social-Links{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.Social-Link{
+    margin: 4%;
+}
+
+#emailPara{
+    font-size: 1.5rem;
+    
+}
+
+a:hover{
+    box-shadow: 10px 5px 5px red;
+    text-decoration: none;
+}
+
+img:hover{
+    box-shadow: 10px 5px 5px red;
+}
+
+#Background, #Experience, #Projects{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6rem;
+}
+#Skills{
+    margin-bottom: 6rem;
+}
+
+
+#Skills > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sub-heading{
+    margin-right: 30%;
+    margin-left: 10%;
+    color: skyblue;
+}
+h2:hover{
+   color: white;
+}
+
+#Skills > h2{
+    text-align: center; 
+    color: skyblue;
+}
+
+img{
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+}
+
+h1{
+    font-size: 5em;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: skyblue underline;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 900px)
+{
+    .sub-heading{
+        margin-right: 15%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 600px)
+{
+    #Background, #Experience, #Projects{
+        flex-wrap:wrap;
+    }
+    
+}
+
+@media (max-width: 900px)
+{
+    .sub-heading{
+        margin-right: 15%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 375px)
+{
+    #emailPara
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
