@@ -39,13 +39,8 @@ main div{
     
 }
 
-a:hover{
-    box-shadow: 10px 5px 5px red;
-    text-decoration: none;
-}
-
 img:hover{
-    box-shadow: 10px 5px 5px red;
+    box-shadow: 10px 5px 5px skyblue;
 }
 
 #Background, #Experience, #Projects{
@@ -89,9 +84,14 @@ h1{
     font-size: 5em;
 }
 
-a{
+.link{
     color: whitesmoke;
     text-decoration: skyblue underline;
+}
+
+.link:hover{
+    box-shadow: 10px 5px 5px skyblue;
+    border: solid skyblue;
 }
 
 footer{
@@ -127,6 +127,17 @@ footer{
 {
     #emailPara
     {
+        font-size: 1em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 375px)
+{
+    #emailPara
+    {
+        font-size: 1em;
         display: flex;
         flex-wrap: wrap;
     }
